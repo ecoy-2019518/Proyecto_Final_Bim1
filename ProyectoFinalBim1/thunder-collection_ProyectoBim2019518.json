@@ -1,0 +1,273 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "ProyectoBim2019518",
+    "dateExported": "2024-02-23T08:47:20.740Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "a31af69d-3e5a-4fef-a2a0-34826e55b661",
+            "name": "Category",
+            "containerId": "",
+            "created": "2024-02-23T07:13:28.354Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "9693a4c7-95bc-44f6-80b8-f656d0925eba",
+            "name": "Product",
+            "containerId": "",
+            "created": "2024-02-23T07:15:08.936Z",
+            "sortNum": 30000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "6fb95d15-7e1d-49a1-8a30-bf6643002df0",
+            "colId": "62ef8a91-9147-40b3-bd08-18849745b8e1",
+            "containerId": "a31af69d-3e5a-4fef-a2a0-34826e55b661",
+            "name": "CategoryTest",
+            "url": "category/test",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-23T04:22:52.777Z",
+            "modified": "2024-02-23T04:36:47.627Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f28a035c-3c1a-4633-9436-7bae95c22b50",
+            "colId": "62ef8a91-9147-40b3-bd08-18849745b8e1",
+            "containerId": "a31af69d-3e5a-4fef-a2a0-34826e55b661",
+            "name": "CategoryAdd",
+            "url": "category/add",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-23T04:39:00.542Z",
+            "modified": "2024-02-23T05:49:12.850Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Tecnologia"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Productos relacionados con la tecnologia"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "52180b68-0a9b-4398-ac22-4e124fdeeed3",
+            "colId": "62ef8a91-9147-40b3-bd08-18849745b8e1",
+            "containerId": "a31af69d-3e5a-4fef-a2a0-34826e55b661",
+            "name": "CategoryUpdate",
+            "url": "category/update/65d822e333b0856e76ecf3c8",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-02-23T05:31:33.346Z",
+            "modified": "2024-02-23T05:41:09.309Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Peluches"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Ahora tenemos peluches"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "d05c83b8-4d57-4ab8-976d-e2276a4b8051",
+            "colId": "62ef8a91-9147-40b3-bd08-18849745b8e1",
+            "containerId": "a31af69d-3e5a-4fef-a2a0-34826e55b661",
+            "name": "CategoryDelete",
+            "url": "category/delete/65d822e333b0856e76ecf3c8",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-02-23T05:52:54.126Z",
+            "modified": "2024-02-23T06:10:20.423Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "68d29339-5f3e-4cf2-b238-b30c9aef3b20",
+            "colId": "62ef8a91-9147-40b3-bd08-18849745b8e1",
+            "containerId": "a31af69d-3e5a-4fef-a2a0-34826e55b661",
+            "name": "CategoryList",
+            "url": "category/list",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-02-23T06:57:08.230Z",
+            "modified": "2024-02-23T06:57:35.067Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "227c114a-02cc-48ca-80fc-f95b3a834784",
+            "colId": "62ef8a91-9147-40b3-bd08-18849745b8e1",
+            "containerId": "9693a4c7-95bc-44f6-80b8-f656d0925eba",
+            "name": "ProductTest",
+            "url": "product/test",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2024-02-23T07:30:20.688Z",
+            "modified": "2024-02-23T07:36:59.147Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "8ec5591c-e253-4fce-b228-cef30462a376",
+            "colId": "62ef8a91-9147-40b3-bd08-18849745b8e1",
+            "containerId": "9693a4c7-95bc-44f6-80b8-f656d0925eba",
+            "name": "ProductAdd",
+            "url": "product/add",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2024-02-23T07:47:37.400Z",
+            "modified": "2024-02-23T07:54:05.987Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Hojas"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Elemento de trabajo o estudio"
+                    },
+                    {
+                        "name": "category",
+                        "value": "65d831d8c43c594d4a8913b1"
+                    },
+                    {
+                        "name": "stock",
+                        "value": "8"
+                    },
+                    {
+                        "name": "price",
+                        "value": "20"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "99742774-1e5e-4bf8-a0fd-531529a700b1",
+            "colId": "62ef8a91-9147-40b3-bd08-18849745b8e1",
+            "containerId": "9693a4c7-95bc-44f6-80b8-f656d0925eba",
+            "name": "ProductUpdate",
+            "url": "product/update/65d84f1de74099a8c9964efd",
+            "method": "PUT",
+            "sortNum": 100000,
+            "created": "2024-02-23T08:00:18.100Z",
+            "modified": "2024-02-23T08:02:17.776Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Telefono"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Telefono super rapido para estudiar"
+                    },
+                    {
+                        "name": "category",
+                        "value": "65d831d8c43c594d4a8913b1"
+                    },
+                    {
+                        "name": "stock",
+                        "value": "10"
+                    },
+                    {
+                        "name": "price",
+                        "value": "500"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "b670a860-da72-4e3a-b306-246dcd48b553",
+            "colId": "62ef8a91-9147-40b3-bd08-18849745b8e1",
+            "containerId": "9693a4c7-95bc-44f6-80b8-f656d0925eba",
+            "name": "ProductDelete",
+            "url": "product/delete/65d84f1de74099a8c9964efd",
+            "method": "DELETE",
+            "sortNum": 110000,
+            "created": "2024-02-23T08:07:57.860Z",
+            "modified": "2024-02-23T08:08:35.047Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f448bb18-6c15-4fbb-b1c9-0274cffc0beb",
+            "colId": "62ef8a91-9147-40b3-bd08-18849745b8e1",
+            "containerId": "9693a4c7-95bc-44f6-80b8-f656d0925eba",
+            "name": "ProductList",
+            "url": "product/list",
+            "method": "GET",
+            "sortNum": 120000,
+            "created": "2024-02-23T08:10:22.489Z",
+            "modified": "2024-02-23T08:10:31.380Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "6df665ef-4ae8-4f96-91af-ae4fe4a08124",
+            "colId": "62ef8a91-9147-40b3-bd08-18849745b8e1",
+            "containerId": "9693a4c7-95bc-44f6-80b8-f656d0925eba",
+            "name": "ProductListName",
+            "url": "product/listName",
+            "method": "POST",
+            "sortNum": 130000,
+            "created": "2024-02-23T08:24:32.378Z",
+            "modified": "2024-02-23T08:30:50.031Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Hojas"
+                    }
+                ]
+            },
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "localhost:2656/"
+        }
+    }
+}
