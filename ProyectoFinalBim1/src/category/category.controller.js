@@ -4,7 +4,7 @@ import Category from './category.model.js'
 
 export const test = (req, res) => {
     console.log('test is running')
-    res.send({ message: 'test function is running' })
+    return res.send({ message: 'test function is running' })
 }
 
 export const save = async (req, res) => {
