@@ -37,6 +37,7 @@ export const update = async (req, res) => {
         console.error(err)
         return res.status(500).send({message: 'Error updating category'})
     }
+
 }
 
 export const deleteC = async(req, res)=>{

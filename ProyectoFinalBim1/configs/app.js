@@ -6,6 +6,7 @@ import morgan from 'morgan'
 import helmet from 'helmet'
 import cors from 'cors'
 import { config } from "dotenv"
+import userRoutes from '../src/user/user.routes.js'
 import categoryRoutes from '../src/category/category.routes.js'
 import productRoutes from '../src/product/product.routes.js'
 
@@ -23,6 +24,7 @@ app.use(helmet()) //Aplica capa de seguridad básica al servidor
 app.use(morgan('dev')) //Logs de solicitudes al servidor HTTP
 
 //Declaración de rutas
+app.use('/user', userRoutes)
 app.use('/category', categoryRoutes)
 app.use('/product', productRoutes)
 
